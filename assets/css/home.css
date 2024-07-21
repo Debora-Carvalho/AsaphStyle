@@ -1,4 +1,5 @@
 .hero {
+    height: 100vh;
     background: linear-gradient(to bottom, #020e0c, #264340);
     color: #fff;
 }
