@@ -11,6 +11,13 @@
     text-transform: uppercase;
 }
 
+.hero-text h2 {
+    font-family: "Rowdies", sans-serif;
+    color: #fff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
 .hero-text span {
     display: block;
     width: 13rem;
@@ -27,4 +34,41 @@
 .hero-image img {
     height: 70vh;
     width: auto;
+}
+
+.btn-explore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem; 
+    background-color: #f7dfb4;
+    width: 18rem;
+    height: 4rem;
+    border-radius: 10px;
+    font-family: "Rowdies", sans-serif;
+    color: #402722;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    border: none;
+    padding: 0.7rem;
+    box-shadow: 0 5px #bfa070, 0 10px #d0b289;
+    position: relative;
+    transition: transform 0.1s ease-in-out;
+}
+
+.btn-explore:active {
+    transform: translateY(5px);
+    box-shadow: 0 2px #bfa070, 0 5px #d0b289;
+}
+
+.btn-explore span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #402722;
+    border-radius: 50%;
+    width: 1.5rem; 
+    height: 1.5rem; 
+    color: #f7dfb4;
+    border: none;
 }
