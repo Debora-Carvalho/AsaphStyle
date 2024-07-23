@@ -23,7 +23,11 @@ header {
 }
 
 .logo-site {
-    font-size: 24px;
+    font-family: "Baumans", system-ui;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.2rem;
     color: #fcfbf9;
 }
 
@@ -34,9 +38,11 @@ header {
 }
 
 .nav-item a {
+    font-family: "Montserrat", sans-serif;
     text-decoration: none;
+    text-transform: uppercase;
     color: #fff;
-    font-weight: 600;
+    font-weight: 300;
 }
 
 .nav-item.active a {
@@ -53,15 +59,20 @@ header {
     font-size: 1.2rem;
     color: #fff;
     border: none;
+    cursor: pointer;
 }
 
 .btn-cart {
     background-color: rgba(217, 171, 154, 0.4);
+    font-family: "Montserrat", sans-serif;
     font-size: 1.2rem;
+    text-transform: uppercase;
     color: #fff;
+    font-weight: 300;
     padding: 0.7rem;
     border-radius: 30px;
     border: none;
+    cursor: pointer;
 }
 
 /* Estilização do menu versão mobile */

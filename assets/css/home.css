@@ -3,3 +3,28 @@
     background: linear-gradient(to bottom, #222121, #402722);
     color: #fff;
 }
+
+.hero-text h1 {
+    font-family: "Rowdies", sans-serif;
+    color: #D9AE5F;
+    font-size: 8rem;
+    text-transform: uppercase;
+}
+
+.hero-text span {
+    display: block;
+    width: 13rem;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    color: #fff;
+    font-size: 1.2rem;
+    background-color: transparent;
+    padding: 0.7rem;
+    border-radius: 30px;
+    border: solid, 2px, #fff;
+}
+
+.hero-image img {
+    height: 70vh;
+    width: auto;
+}

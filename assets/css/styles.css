@@ -1,10 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Baumans&family=Bebas+Neue&family=Bubblegum+Sans&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&display=swap');
 @import url('header.css');
 @import url('home.css');
 @import url('footer.css');
 
 * {
-    font-family: "Arial", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
