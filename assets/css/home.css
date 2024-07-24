@@ -111,6 +111,7 @@
 .card {
     width: 12.1875rem; 
     height: 17.8125rem;
+    font-family: "Montserrat", sans-serif;
     background-color: #222121;
     border-radius: 20px;
     display: flex;
@@ -146,15 +147,18 @@
   
   .textBox > .head {
     font-size: 1.25rem;
+    text-transform: uppercase;
+  }
+
+  .textBox > span {
+    font-size: 0.75rem;
+    color: #D9AE5F;
   }
   
   .textBox > .post {
     font-size: 1.0625rem;
-  }
-  
-  .textBox > span {
-    font-size: 0.75rem;
-    color: #D9AE5F;
+    text-align: center;
+    font-weight: 300;
   }
   
   .card:hover > .textBox {
